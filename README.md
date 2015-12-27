@@ -24,7 +24,7 @@ output: html_document
 
   * **Main**: Principal method that make the calls to the rest of the processes in the given order, "Collect raw data", "Merge data", "Transform the raw data", "Calculate average" and "Return the proper result".
   
-  * **Collect the raw data**: Process via "gettingRawData" method who sets the variables path and load the necesary dataset to working with.
+  * **Collect the raw data**: Process via "gettingRawData" method who sets the variables path and load the necesary dataset to working with, **You will need to have the "UCI HAR Dataset" directory in your working directory to extract the data properly**
   
   * **Merge the collected data**: Merge the collected raw data, returning the complete dataset to apply needed transformations.
   
